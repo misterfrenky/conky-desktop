@@ -1,6 +1,9 @@
 # conky-desktop
+Conky is a versatile system monitoring tool for Ubuntu that seamlessly combines beauty with efficiency. Its visually appealing display of real-time system information adds a touch of elegance to your desktop. 
+Please enjoy with easy setup 🤩🤩🤩
 ![fullscreen](./screenshots/fullscreen.png)
-## Ubuntu
+## Ubuntu <img src="https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/OS_Ubuntu_alt.png" width="24" /> 
+
 ### 1. Setup
 #### Automation
 You can just run only a command to set theme up.
