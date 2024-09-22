@@ -38,8 +38,8 @@ Select as you like
 ![selected](./screenshots/selected.png)
 ### 4. Run at startup
 To enable selected widget startup everytime you open you computer. You can make it delayed if your computer has small specs.
-Fast computer should be: `< 5` seconds
-Slow computer should be: `> 5` seconds
+; Fast computer should be: `< 5` seconds
+; Slow computer should be: `> 5` seconds.
 ![startup](./screenshots/startup.png)
 
 ___
