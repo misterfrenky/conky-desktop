@@ -1,0 +1,13 @@
+{
+  "capture_background" : "false",
+  "generate_png" : "true",
+  "show_preview" : "false",
+  "show_list" : "true",
+  "pane_position" : "387",
+  "window_width" : "763",
+  "window_height" : "727",
+  "startup_delay" : "3",
+  "search-locations" : [
+    "~/.config/conky"
+  ]
+}
