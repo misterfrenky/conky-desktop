@@ -28,7 +28,7 @@ cp -i fonts/* ~/.fonts/
 ```
 mkdir -p ~/.config/conky
 cp -ir conky/* ~/.config/conky
-cp -i conky-manager2json ~/.config/
+cp -i conky-manager2.json ~/.config/
 ```
 ### 2. Open CM2
 Just start the application
