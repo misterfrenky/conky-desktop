@@ -57,5 +57,5 @@ own_window_argb_value 76
 TEXT
 ${voffset -3}${font Orore:size=20}N${goto 35}${font Sportrop:size=16}${voffset -3}$color1${execi 5 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits}$color${goto 70}${font Laconic:size=16:condensed:bold}°C${font}
 ${font Orore:size=14}M${font} ${voffset -5}$color1${execi 5 nvidia-settings -q [gpu:0]/UsedDedicatedGPUMemory -t} / ${exec nvidia-settings -q [gpu:0]/TotalDedicatedGPUMemory -t}${color} MiB
-${voffset 4}$color GPU Clock${goto 74}»${goto 86}$color1${nvidia gpufreq}${color} MHz
-$color Mem Clock${goto 74}»${goto 86}$color1${nvidia memfreq}${color} MHz
+${voffset 4}$color GPU Clock${goto 74}»${goto 86}$color1${execi 2 nvidia-smi --query-gpu=clocks.gr --format=csv,noheader,nounits}${color} MHz
+$color Mem Clock${goto 74}»${goto 86}$color1${execi 2 nvidia-smi --query-gpu=clocks.mem --format=csv,noheader,nounits}${color} MHz
